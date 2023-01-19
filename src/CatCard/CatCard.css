@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Trebuchet';
+    src: url(/public/fonts/trebuchetms.ttf);
+}
+
+.cat-card {
+    height: 480px;
+    width: 320px;
+    background-color: white;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+}
+
+.cat-card__info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet', sans-serif;
+}
+
+.cat-card__preheader{
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+}
+
+.cat-card__header{
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+}
+
+.cat-card__name {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.cat-card__quantity {
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+
+.cat-card__prise{
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+
+.cat-card__customer{
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+
+.cat-card__shadow-container {
+    background-color: #1698D9;
+    width: 320px;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+    padding: 4px;
+}
+
+.cat-card__shadow-container:hover {
+    background-color: #2EA8E6;
+}
+
+.cat-card__footer {
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: 'Trebuchet', sans-serif;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: 'Trebuchet', sans-serif;
+    text-align: center;
+    margin-top: 14px;
+}
