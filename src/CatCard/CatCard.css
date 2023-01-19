@@ -8,6 +8,7 @@
     width: 320px;
     background-color: white;
     clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+    position: relative;
 }
 
 .cat-card__info {
@@ -22,12 +23,14 @@
     font-weight: 400;
     font-size: 16px;
     color: #666666;
+    margin-top: 21px;
 }
 
 .cat-card__header{
     font-weight: 700;
     font-size: 48px;
     color: #000000;
+    margin-top: 5px;
 }
 
 .cat-card__name {
@@ -40,6 +43,7 @@
     font-weight: 400;
     font-size: 14px;
     color: #666666;
+    margin-top: 15px;
 }
 
 .cat-card__prise{
@@ -52,6 +56,39 @@
     font-weight: 400;
     font-size: 14px;
     color: #666666;
+}
+
+.cat-card__value {
+    background-color: #1698D9;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+}
+
+.cat-card__value-number {
+    padding-top: 10px;
+    padding-bottom: 0;
+    font-family: 'Trebuchet';
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.cat-card__weight {
+    color: #FFFFFF;
+    display: block;
+    width: initial;
+    margin: 0;
+    padding-bottom: 8px;
+    font-family: 'Trebuchet';
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .cat-card__shadow-container {

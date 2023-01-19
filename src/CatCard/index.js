@@ -15,6 +15,10 @@ const CatCard = (props) => {
                 <span className='cat-card__prise'>{props.prise}</span>
                 <span className='cat-card__customer'>{props.customer}</span>
             </div>
+            <div className='cat-card__value'>
+                <div className='cat-card__value-number weight'>{props.value}</div>
+                <span className='cat-card__weight weight'>{props.weight}</span>
+            </div>
             <img src='../img/photo.svg'/>
         </div>
     </div>
